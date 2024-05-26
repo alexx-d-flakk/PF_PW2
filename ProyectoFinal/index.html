@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto Final</title>
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        #menu {
+            margin-bottom: 20px;
+        }
+        input, button {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Proyecto Final</h1> <br>
+    <h2>Menú para archivos CSV</h2> <br> <br>
+    <div id="menu">
+        <button onclick="readCSV()">Leer CSV</button>
+        <button onclick="showInsertForm()">Insertar Datos</button>
+        <button onclick="showDeleteForm()">Borrar Datos</button>
+    </div>
+
+    <div id="output"></div>
+    <div id="form-container"></div>
+
+    <input type="file" id="csvFileInput" accept=".csv" style="display: none;" onchange="handleFileSelect(event)">
+    
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+    background: rgb(197,255,110);
+    background: linear-gradient(90deg, rgba(197,255,110,0.6573004201680672) 0%, rgba(55,217,50,0.365983893557423) 48%, rgba(74,255,78,0.30155812324929976) 100%);
+}
+h1{
+    text-align: center;
+    font-style: italic;
+    font-size: 50px;
+}
+h2{
+    text-align: center;
+    font-style: oblique;
+    font-size: 30px;
+}
+div{
+    text-align: center;
+}
